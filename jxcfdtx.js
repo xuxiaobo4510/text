@@ -112,7 +112,7 @@ function getTokens() {
       $.tokenArr.push(jdTokenNode[item] ? JSON.parse(jdTokenNode[item]) : '{}');
     })
   } else {
-    $.tokenArr = [JSON.parse($.getdata('jxnc_token1') || '{"farm_jstoken":"923a5e69b6cb06e12bc04b01f25ddd1c","phoneid":"e5cb86e9056c325eef1e22796d54c568fff8f4d8","timestamp":"1612445539945","pin":"jd_63372205e4143"},{"farm_jstoken":"f33a70d435b3e45c67b00e2361f7018b","phoneid":"e5cb86e9056c325eef1e22796d54c568fff8f4d8","timestamp":"1612398874116","pin":"jd_520a502029f9a"}'), JSON.parse($.getdata('jxnc_token2') || '{}')];
+    $.tokenArr = [JSON.parse($.getdata('jxnc_token1') || '{"farm_jstoken":"923a5e69b6cb06e12bc04b01f25ddd1c","phoneid":"e5cb86e9056c325eef1e22796d54c568fff8f4d8","timestamp":"1612445539945","pin":"jd_63372205e4143"}'), JSON.parse($.getdata('jxnc_token2') || '{"farm_jstoken":"f33a70d435b3e45c67b00e2361f7018b","phoneid":"e5cb86e9056c325eef1e22796d54c568fff8f4d8","timestamp":"1612398874116","pin":"jd_520a502029f9a"}')];
   }
   if (!$.tokenArr[0]) {
     $.msg(
