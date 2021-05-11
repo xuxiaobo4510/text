@@ -52,8 +52,8 @@
     },
     {
             "id": "jbcs2",
-            "name": "脚本测试2",
-            "keys": ["xpreadCookie", "xpreadCookie2", "xpreadCookie3", "xpreadCookie4", "xpreadCookie5", "xpreadCookie6"],
+            "name": "笑谱阅读",
+            "keys": ["xpreadCookie", "xpreadCookie2", "xpreadCookie3", "xpreadCookie4", "xpreadCookie5", "xpreadCookie6", "xpreadToken", "xpreadToken2", "xpreadToken3", "xpreadToken4", "xpreadToken5", "xpreadToken6"],
             "author": "@tom",
             "settings": [{
             "id": "xpreadstatus",
