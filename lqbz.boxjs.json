@@ -4,29 +4,7 @@
     "author": "@",
     "icon": "https://gitee.com/heisedetian/test/raw/master/logo.png",
     "repo": "https://gitee.com/heisedetian",
-    "apps": [{
-            "id": "jbcs",
-            "name": "脚本测试",
-            "keys": ["kxhyheader", "kxhyheader2","adbody", "adheader","adbody2", "adheader2"],
-            "author": "@tom",
-            "settings": [{
-            "id": "kxhystatus",
-            "name": "当前账号",
-            "val": "1",
-            "type": "number",
-            "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
-    },
-    {
-            "id": "kxhycount",
-            "name": "账号个数",
-            "val": "1",
-            "type": "number",
-            "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-    }],
-            "repo": "https://raw.githubusercontent.com/xl2101200/-/main/kxhy.js",
-            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.png"],
-            "script": "https://raw.githubusercontent.com/xl2101200/-/main/jxhy.js"
-    },
+    "apps": [
     {
             "id": "csxdr",
             "name": "超市小达人",
@@ -72,76 +50,6 @@
             "repo": "https://raw.githubusercontent.com/xl2101200/-/main/xpread.js",
             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/xpread.png"],
             "script": "https://raw.githubusercontent.com/xl2101200/-/main/xpread.js"
-    },
-    {
-            "id": "kkj",
-            "name": "看看集",
-            "keys": ["kkjurl","kkjhd","kkjurl2","kkjhd2","kkjurl3","kkjhd3","kkjurl4","kkjhd4","kkjurl5","kkjhd5","kkjurl6","kkjhd6"],
-            "author": "@tom",
-            "settings": [{
-            "id": "kkjstatus",
-            "name": "当前账号",
-            "val": "1",
-            "type": "number",
-            "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
-    },
-    {
-            "id": "kkjcount",
-            "name": "账号个数",
-            "val": "1",
-            "type": "number",
-            "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-    }],
-            "repo": "https://raw.githubusercontent.com/xl2101200/-/main/kkj.js",
-            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.png","https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.png"],
-            "script": "https://raw.githubusercontent.com/xl2101200/-/main/kkj.js"
-    },
-    {
-    "id": "kxdfs",
-    "name": "开心大丰收",
-    "keys": ["kxdfsheader", "kxdfsheader2", "kxdfsheader3", "kxdfsheader4"],
-    "author": "@ningmeng",
-    "settings": [
-      {
-        "id": "kxdfsstatus",
-        "name": "当前账号",
-        "val": "1",
-        "type": "number",
-        "desc": "当前账号对应"
-      },
-      {
-        "id": "kxdfscount",
-        "name": "账号个数",
-        "val": "1",
-        "type": "number",
-        "desc": "需要几个账号，数字为几"
-      }],
-    "repo": "http://nm66.top/kxdfs.js",
-    "icons": ["http://nm66.top/1.jpg", "http://nm66.top/1.jpg"],
-    "script": "http://nm66.top/kxdfs.js"
-  },
-  {
-            "id": "dgh",
-            "name": "大公会",
-            "keys": ["dghurl","dghhd"],
-            "author": "@feizao",
-            "settings": [{
-            "id": "dghhstatus",
-            "name": "当前账号",
-            "val": "1",
-            "type": "number",
-            "desc": "当前账号对应"
-    },
-    {
-            "id": "dghhcount",
-            "name": "账号个数",
-            "val": "1",
-            "type": "number",
-            "desc": "需要几个账号，数字为几"
-    }],
-            "repo": "https://github.com/age174/-/blob/main/dgh.js",
-            "icons": ["https://ae01.alicdn.com/kf/U48ac7674ccc7422dac2bb266d8c9a17b2.jpg", "https://ae01.alicdn.com/kf/U48ac7674ccc7422dac2bb266d8c9a17b2.jpg"],
-            "script": "https://raw.githubusercontent.com/age174/-/main/dgh.js"
     },
     {
             "id": "cglm",
@@ -914,47 +822,6 @@
       ]
     },
     {
-            "id": "fqkk",
-            "name": "番茄看看",
-            "keys": ["fqkk"],
-            "author": "@feizao",
-            "settings": [{
-                "id": "fqkkCkMove",
-                "val": "",
-                "name": "迁移旧数据",
-                "type": "boolean",
-                "desc": "开启该选项，执行一次脚本可将原有ck转换为此脚本可用的格式"
-              }, {
-                "id": "fqkkBanfirstTask",
-                "val": "",
-                "name": "限制脚本跑每日首次任务",
-                "type": "boolean",
-                "desc": "开启该选项时，每需手动阅读一次文章后脚本才能正常执行任务，尽量避免因脚本跑首次任务遭微信限制的情况"
-              }, {
-                "id": "fqkkConcurrency",
-                "val": "1",
-                "name": "并发执行账号数",
-                "type": "text",
-                "desc": "默认单账号跑任务，指定大于1的数值时，将并发执行多个账号的任务，请勿设置过大，避免NE工具崩溃（太大估计会崩溃吧）"
-              }, {
-                "id": "fqtx",
-                "name": "提现金额",
-                "val": "100",
-                "type": "number",
-                "desc": "需要自动提现多少，数字为金额的一百倍，如提现0.3元填写30，默认100为提现1元,最低提现额度为0.3元"
-              }, {
-                "id": "fqkk",
-                "name": "CK 列表",
-                "val": "",
-                "type": "textarea",
-                "rows": 8,
-                "desc": "番茄看看CK 列表 (JSON 格式)"
-              }],
-            "repo": "https://github.com/age174/-/blob/main/fqkk.js",
-            "icons": ["https://ftp.bmp.ovh/imgs/2021/02/f8306006536eb49c.jpeg", "https://ftp.bmp.ovh/imgs/2021/02/f8306006536eb49c.jpeg"],
-            "script": "https://raw.githubusercontent.com/age174/-/main/fqkk.js"
-    },
-    {
     "id": "ranlv",
     "name": "燃旅视频",
     "keys": ["rlurl", "rlheader","rlurl2","rlheader2","rlurl3","rlheader3","rlurl4","rlheader4","rlurl5", "rlheader5"],
@@ -1219,89 +1086,6 @@
             "repo": "https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/Task/githubAC.js",
             "icons": ["https://github.githubassets.com/images/modules/site/home/astro-mona.jpg", "https://github.githubassets.com/images/modules/site/home/astro-mona.jpg"],
             "script": "https://raw.githubusercontent.com/6Svip120apk69/gitee_q8qsTAUA_cThxc1RBVUE/main/Task/githubAC.js"
-        },
-        {
-            "id": "zhima",
-            "name": "芝嫲视频",
-            "keys": ["zhimabody", "zhimatxbody","zhimabody2", "zhimatxbody2","zhimabody3", "zhimatxbody3","zhimabody4", "zhimatxbody4","zhimabody5", "zhimatxbody5","zhimabody6", "zhimatxbody6","zhimabody7", "zhimatxbody7","zhimabody8", "zhimatxbody8","zhimabody9", "zhimatxbody9","zhimabody10", "zhimatxbod10y","zhimabody11", "zhimatxbody11","zhimabody12", "zhimatxbody12","zhimabody13", "zhimatxbody13","zhimabody14", "zhimatxbody14","zhimabody15", "zhimatxbody15","zhimabody16", "zhimatxbody16","zhimabody17", "zhimatxbody17","zhimabody18", "zhimatxbody18","zhimabody19", "zhimatxbody19","zhimabody20", "zhimatxbody20"],
-            "author": "@ziye",
-            "settings": [{
-                    "id": "zhimaSuffix",
-                    "name": "当前账号",
-                    "val": "1",
-                    "type": "number",
-                    "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
-                },
-                {
-                    "id": "zhimaCount",
-                    "name": "账号个数",
-                    "val": "1",
-                    "type": "number",
-                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-                },
-                {
-                    "id": "zhimaCASH",
-                    "name": "提现标准",
-                    "val": "0",
-                    "type": "number",
-                    "desc": "0不提现，可设置 0 0.3 0.5 1 5 10 30 50 100 等"
-                }
-            ],
-            "repo": "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/zhima.js",
-            "icons": ["https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/zhima.png", "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/zhima.png"],
-            "script": "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/zhima.js"
-    },
-    {
-            "id": "ysm",
-            "name": "云扫码",
-            "keys": ["ysm"],
-            "author": "@feizao",
-            "descs_html": [
-              "优化后的脚本存储ck的数据结构跟原先的不同，需要转换下或重新抓数据",
-              "转换步骤：1、NE工具（QX、Loon、Surge）中进入脚本编辑界面，手动修改变量 moveData=1 后直接执行一次即可",
-              "抓包备注：1、脚本已根据ck数据中的账户特征做区分，无需指定抓包账户及账户个数；2、扫码进入云扫码主页面后即可抓到脚本所需的全部数据"
-            ],
-            "settings": [{
-                "id": "ysmNotice",
-                "val": "",
-                "name": "是否通知",
-                "type": "boolean",
-                "desc": "开启该选项时，脚本执行完会发通知，否则只打印日志"
-              }, {
-                "id": "ysmBanfirstTask",
-                "val": "",
-                "name": "限制脚本跑每日首次任务",
-                "type": "boolean",
-                "desc": "开启该选项时，每需手动阅读一次文章后脚本才能正常执行任务，尽量避免因脚本跑首次任务遭微信限制的情况"
-              }, {
-                "id": "ysmBanhalfTask",
-                "val": "",
-                "name": "限制脚本跑每日第50篇任务",
-                "type": "boolean",
-                "desc": "开启该选项时，脚本做完第50篇任务时会自动结束任务，可手动去阅读2篇避免被限制或再次运行脚本可继续做其余任务"
-              }, {
-                "id": "ysmConcurrency",
-                "val": "1",
-                "name": "并发执行账号数",
-                "type": "text",
-                "desc": "默认单账号跑任务，指定大于1的数值时，将并发执行多个账号的任务，请勿设置过大，避免NE工具崩溃（太大估计会崩溃吧）"
-              }, {
-                "id": "ysmtxAmt",
-                "name": "提现金额",
-                "val": "3000",
-                "type": "number",
-                "desc": "需要自动提现多少，数字为金额的一万倍，如提现1元填写10000，默认提现0.3,最低提现额度为0.3元"
-                }, {
-                  "id": "ysm",
-                  "name": "CK 列表",
-                  "val": "",
-                  "type": "textarea",
-                  "rows": 8,
-                  "desc": "云扫码CK 列表 (JSON 格式)"
-              }],
-            "repo": "https://github.com/age174/-/blob/main/ysm.js",
-            "icons": ["https://raw.githubusercontent.com/erdongchanyo/icon/main/taskicon/Yunsaoma.png", "https://raw.githubusercontent.com/erdongchanyo/icon/main/taskicon/Yunsaoma.png"],
-            "script": "https://raw.githubusercontent.com/age174/-/main/ysm.js"
    },
    {
     "id": "kkd",
@@ -1548,42 +1332,7 @@
 		"icons": ["https://gitee.com/heisedetian/test/raw/master/conghua.png",
 			"https://gitee.com/heisedetian/test/raw/master/conghua.png"
 		]
-	},
-    {
-      "author": "@sunert", 
-      "keys": ["sy_signheader_dsj", "drawal_dsj", "sy_signheader_dsj2", "drawal_dsj2", "sy_signheader_dsj3", "drawal_dsj3", "sy_signheader_dsj4", "drawal_dsj4", "sy_signheader_dsj5", "drawal_dsj5"], 
-      "repo": "https://github.com/Sunert/Scripts/blob/master/Task/dianshijia.js", 
-      "id": "dianshijia", 
-      "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/dianshijia.js", 
-      "settings": [
-        {
-          "items": [
-            {
-              "key": "55", 
-              "label": "提现额度"
-            }, 
-            {
-              "key": "44", 
-              "label": "1天VIP"
-            }, 
-            {
-              "key": "42", 
-              "label": "1888金币"
-            }
-          ], 
-          "id": "REWARD", 
-          "val": "55", 
-          "name": "额外签到奖励", 
-          "type": "radios", 
-          "desc": ""
-        }
-      ], 
-      "name": "电视家", 
-      "icons": [
-        "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/dianshijia.png", 
-        "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/dianshijia.png"
-      ]
-  }, 
+  },
   {
             "id": "ximei",
             "name": "西梅",
@@ -1684,101 +1433,6 @@
       "icons": ["https://gitee.com/photonmang/quantumultX/raw/master/58.png", "https://gitee.com/photonmang/quantumultX/raw/master/58.png"]
     },
     {
-            "id": "smyj",
-            "name": "圣牧有机",
-            "keys": ["smyjurl", "smyjhd","smyjurl2", "smyjhd2","smyjurl3", "smyjhd3","smyjurl4", "smyjhd4","smyjurl5", "smyjhd5"],
-            "author": "@tom",
-            "settings": [{
-            "id": "smyjstatus",
-            "name": "当前账号",
-            "val": "1",
-            "type": "number",
-            "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
-    },
-    {
-            "id": "smyjcount",
-            "name": "账号个数",
-            "val": "1",
-            "type": "number",
-            "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-    }],
-            "repo": "https://raw.githubusercontent.com/xl2101200/-/main/smyj.js",
-            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.png"],
-            "script": "https://raw.githubusercontent.com/xl2101200/-/main/smyj.js"
-    },
-    {
-      "id": "didi",
-      "name": "滴滴出行",
-      "keys": ["didi_token", "didi_city_id", "didi_lid"],
-      "settings": [
-        {
-          "id": "didi_showLog",
-          "name": "日志开关",
-          "val": false,
-          "type": "boolean",
-          "desc": "是否打开接口返回详情日志打印，默认关闭"
-        },
-        {
-          "id": "didi_lottery",
-          "name": "抽奖开关",
-          "val": false,
-          "type": "boolean",
-          "desc": "是否打开福利金抽奖，默认关闭"
-        }
-      ],
-      "author": "@whyour",
-      "repo": "https://github.com/whyour/hundun/blob/master/quanx/didi.js",
-      "script": "https://raw.githubusercontent.com/whyour/hundun/master/quanx/didi.js",
-      "icons": [
-        "https://raw.githubusercontent.com/Orz-3/mini/master/didi.png",
-        "https://raw.githubusercontent.com/Orz-3/task/master/didi.png"
-      ]
-    },
-    {
-            "id": "xbgg",
-            "name": "讯播广告",
-            "keys": ["xbggurl","xbgghd", "xbggurl2","xbgghd2","xbggurl3","xbgghd3","xbggurl4","xbgghd4","xbggurl5","xbgghd5","xbggurl6","xbgghd6", "xbggurl7","xbgghd7","xbggurl8","xbgghd8","xbggurl9","xbgghd9","xbggurl10","xbgghd10"],
-            "author": "@feizao",
-            "settings": [{
-            "id": "xbggstatus",
-            "name": "当前账号",
-            "val": "1",
-            "type": "number",
-            "desc": "当前账号对应"
-    },
-    {
-            "id": "xbggcount",
-            "name": "账号个数",
-            "val": "1",
-            "type": "number",
-            "desc": "需要几个账号，数字为几"
-    },
-    {
-            "id": "xbzh",
-            "name": "支付宝账号",
-            "val": "",
-            "type": "string",
-            "desc": "支付宝提现账号"
-    },
-    {
-            "id": "xbname",
-            "name": "提现姓名",
-            "val": "",
-            "type": " string",
-            "desc": "支付宝提现姓名"
-    },
-    {
-            "id": "xbje",
-            "name": "提现金额",
-            "val": "1",
-            "type": "number",
-            "desc": "需要提现的金额，请填写，默认1元。"
-    }],
-            "repo": "https://github.com/age174/-/blob/main/xbgg.js",
-            "icons": ["https://ae01.alicdn.com/kf/U466ffce93b584c5babd1127f32f5ddebX.jpg", "https://ae01.alicdn.com/kf/U466ffce93b584c5babd1127f32f5ddebX.jpg"],
-            "script": "https://raw.githubusercontent.com/age174/-/main/xbgg.js"
-    },
-    {
             "id": "hhkk",
             "name": "火狐看看",
             "keys": ["hhkkbody", "hhkkhd", "hhkkurl", "hhkkbody2", "hhkkhd2", "hhkkurl2", "hhkkbody3", "hhkkhd3", "hhkkurl3", "hhkkbody4", "hhkkhd4", "hhkkurl4", "hhkkbody5", "hhkkhd5", "hhkkurl5"],
@@ -1800,29 +1454,6 @@
             "repo": "https://raw.githubusercontent.com/xl2101200/-/main/hhkk.js",
             "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.png"],
             "script": "https://raw.githubusercontent.com/xl2101200/-/main/hhkk.js"
-    },
-    {
-            "id": "xfyjc",
-            "name": "幸福养鸡场",
-            "keys": ["xfyjchd", "xfyjchd2", "xfyjchd3", "xfyjchd4", "xfyjchd5", "xfyjchd6"],
-            "author": "@tom",
-            "settings": [{
-            "id": "xfyjcstatus",
-            "name": "当前账号",
-            "val": "1",
-            "type": "number",
-            "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
-    },
-    {
-            "id": "xfyjccount",
-            "name": "账号个数",
-            "val": "1",
-            "type": "number",
-            "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-    }],
-            "repo": "https://raw.githubusercontent.com/xl2101200/-/main/xfyjc.js",
-            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.png"],
-            "script": "https://raw.githubusercontent.com/xl2101200/-/main/xfyjc.js"
     },
     {
 		"id": "helpbang",
