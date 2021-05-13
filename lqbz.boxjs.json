@@ -77,7 +77,7 @@
     {
             "id": "jbcs4",
             "name": "动物研究院",
-            "keys": ["dwyjyhd", "dwyjybody","dwyjyspbody","dwyjyhd2", "dwyjybody2","dwyjyspbody2","dwyjyhd3", "dwyjybody3","dwyjyspbody3","dwyjyhd4", "dwyjybody4","dwyjyspbody4","dwyjyhd5", "dwyjybody5","dwyjyspbody5","dwyjyhd6", "dwyjybody6","dwyjyspbody6""],
+            "keys": ["dwyjyhd", "dwyjybody","dwyjyspbody","dwyjyhd2", "dwyjybody2","dwyjyspbody2","dwyjyhd3", "dwyjybody3","dwyjyspbody3","dwyjyhd4", "dwyjybody4","dwyjyspbody4","dwyjyhd5", "dwyjybody5","dwyjyspbody5","dwyjyhd6", "dwyjybody6","dwyjyspbody6"],
             "author": "@tom",
             "settings": [{
             "id": "dwyjystatus",
