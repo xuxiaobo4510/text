@@ -76,18 +76,18 @@
     },
     {
             "id": "jbcs4",
-            "name": "脚本测试4",
-            "keys": ["ryhyheader", "ryhyheader2","ryhyadheader", "ryhyadheader2","ryhyadbody", "ryhyadbody2"],
+            "name": "动物研究院",
+            "keys": ["dwyjyhd", "dwyjybody","dwyjyspbody","dwyjyhd2", "dwyjybody2","dwyjyspbody2","dwyjyhd3", "dwyjybody3","dwyjyspbody3","dwyjyhd4", "dwyjybody4","dwyjyspbody4","dwyjyhd5", "dwyjybody5","dwyjyspbody5","dwyjyhd6", "dwyjybody6","dwyjyspbody6""],
             "author": "@tom",
             "settings": [{
-            "id": "ryhystatus",
+            "id": "dwyjystatus",
             "name": "当前账号",
             "val": "1",
             "type": "number",
             "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
     },
     {
-            "id": "ryhycount",
+            "id": "dwyjycount",
             "name": "账号个数",
             "val": "1",
             "type": "number",
