@@ -1643,7 +1643,7 @@
         {
             "id": "gd",
             "name": "柠檬咕咚步数红包",
-            "keys": ["gdurl", "gdhd","gdurl1", "gdhd1","gdurl2", "gdhd2","gdurl3", "gdhd3","gdurl4", "gdhd4","gdurl5","gdhd5", "gdurl6","gdhd6", "gdurl7","gdhd7", "gdurl8","gdhd8", "gdurl9","gdhd9", "gdurl10","gdhd10"],
+            "keys": ["gdurl", "gdhd","gdurl2", "gdhd2","gdurl3", "gdhd3","gdurl4", "gdhd4","gdurl5","gdhd5", "gdurl6","gdhd6", "gdurl7","gdhd7", "gdurl8","gdhd8", "gdurl9","gdhd9", "gdurl10","gdhd10"],
             "author": "@ningmeng",
             "settings": [{
             "id": "gdstatus",
