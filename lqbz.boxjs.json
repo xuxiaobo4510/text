@@ -1639,6 +1639,29 @@
             "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/jdtq.js",
             "icons": ["https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/jdtq.png", "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/jdtq.png"],
             "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/jdtq.js"
-        }
+        },
+        {
+            "id": "gd",
+            "name": "柠檬咕咚步数红包",
+            "keys": ["gdurl", "gdhd","gdurl1", "gdhd1","gdurl2", "gdhd2","gdurl3", "gdhd3","gdurl4", "gdhd4","gdurl5","gdhd5", "gdurl6","gdhd6", "gdurl7","gdhd7", "gdurl8","gdhd8", "gdurl9","gdhd9", "gdurl10","gdhd10"],
+            "author": "@ningmeng",
+            "settings": [{
+            "id": "gdstatus",
+            "name": "当前账号",
+            "val": "1",
+            "type": "number",
+            "desc": "当前账号对应"
+    },
+    {
+            "id": "gdcount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "需要几个账号，数字为几"
+    }],
+            "repo": "http://nm66.top/gd.js",
+            "icons": ["http://nm66.top/1.jpg", "http://nm66.top/1.jpg"],
+            "script": "http://nm66.top/gd.js"
+    }
 ]
 }
