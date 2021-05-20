@@ -29,29 +29,6 @@
             "script": "https://raw.githubusercontent.com/age174/-/main/wdwh.js"
     },
     {
-            "id": "jbcs2",
-            "name": "笑谱阅读",
-            "keys": ["xpreadCookie", "xpreadCookie2", "xpreadCookie3", "xpreadCookie4", "xpreadCookie5", "xpreadCookie6", "xpreadToken", "xpreadToken2", "xpreadToken3", "xpreadToken4", "xpreadToken5", "xpreadToken6"],
-            "author": "@tom",
-            "settings": [{
-            "id": "xpreadstatus",
-            "name": "当前账号",
-            "val": "1",
-            "type": "number",
-            "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
-    },
-    {
-            "id": "xpreadcount",
-            "name": "账号个数",
-            "val": "1",
-            "type": "number",
-            "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-    }],
-            "repo": "https://raw.githubusercontent.com/xl2101200/-/main/xpread.js",
-            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/xpread.png"],
-            "script": "https://raw.githubusercontent.com/xl2101200/-/main/xpread.js"
-    },
-    {
             "id": "cglm",
             "name": "猜歌联萌",
             "keys": ["cglmheader", "cglmheader2","cglmheader3", "cglmheader4","cglmheader5","cglmheader6"],
@@ -65,29 +42,6 @@
     },
     {
             "id": "cglmcount",
-            "name": "账号个数",
-            "val": "1",
-            "type": "number",
-            "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-    }],
-            "repo": "https://raw.githubusercontent.com/xl2101200/-/main/ryhy.js",
-            "icons": ["https://raw.githubusercontent.com/xl2101200/-/main/tom/tom.png"],
-            "script": "https://raw.githubusercontent.com/xl2101200/-/main/ryhy.js"
-    },
-    {
-            "id": "jbcs4",
-            "name": "动物研究院",
-            "keys": ["dwyjyhd", "dwyjybody","dwyjyspbody","dwyjyhd2", "dwyjybody2","dwyjyspbody2","dwyjyhd3", "dwyjybody3","dwyjyspbody3","dwyjyhd4", "dwyjybody4","dwyjyspbody4","dwyjyhd5", "dwyjybody5","dwyjyspbody5","dwyjyhd6", "dwyjybody6","dwyjyspbody6"],
-            "author": "@tom",
-            "settings": [{
-            "id": "dwyjystatus",
-            "name": "当前账号",
-            "val": "1",
-            "type": "number",
-            "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
-    },
-    {
-            "id": "dwyjycount",
             "name": "账号个数",
             "val": "1",
             "type": "number",
@@ -470,6 +424,34 @@
       "author": "@passerby-b",
       "repo": "https://gitee.com/passerby-b/javascript/raw/master/JD/passerby-b.boxjs.json",
       "script": "https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_fruit.js"
+    },
+    {
+      "id": "didi_fruit",
+      "name": "滴滴橙心果园",
+      "keys": [
+        "ddtoken"
+      ],
+      "descs_html": [
+        "填写token,多账号用英文逗号(,)分开"
+      ],
+      "settings": [
+        {
+          "id": "ddtoken",
+          "name": "token",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "token"
+        }
+      ],
+      "icons": [
+        "https://gitee.com/passerby-b/javascript/raw/master/icon/didi.png",
+        "https://gitee.com/passerby-b/javascript/raw/master/icon/didi.png"
+      ],
+      "author": "@passerby-b",
+      "repo": "https://gitee.com/passerby-b/javascript/raw/master/JD/passerby-b.boxjs.json",
+      "script": "https://raw.githubusercontent.com/passerby-b/didi_fruit/main/dd_fruit.js"
     },
     {
     "id": "BaiduTB",
