@@ -29,9 +29,9 @@
             "script": "http://nm66.top/chxx.js"
     },
     {
-            "id": "cglm",
-            "name": "猜歌联萌",
-            "keys": ["cglmheader", "cglmheader2","cglmheader3", "cglmheader4","cglmheader5","cglmheader6"],
+            "id": "xcsh",
+            "name": "湘创生活",
+            "keys": ["xcshurl", "xcshhd","xcshbody", "cglmheader4","cglmheader5","cglmheader6"],
             "author": "@tom",
             "settings": [{
             "id": "cglmstatus",
